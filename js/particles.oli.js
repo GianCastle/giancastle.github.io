@@ -3,20 +3,20 @@ $(function () {
     particlesJS("particles-oli-wrapper", {
         "particles": {
             "number": {
-                "value": 40,
+                "value": 100,
                 "density": {
                     "enable": true,
                     "value_area": 800
                 }
             },
             "color": {
-                "value": "#399c9c"
+                "value": "#fff"
             },
             "shape": {
                 "type": "circle",
                 "stroke": {
                     "width": 0,
-                    "color": "#000000"
+                    "color": "#000"
                 },
                 "polygon": {
                     "nb_sides": 5
@@ -28,7 +28,7 @@ $(function () {
                 // }
             },
             "opacity": {
-                "value": 0.3,
+                "value": 0,
                 "random": false,
                 "anim": {
                     "enable": false,

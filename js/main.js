@@ -1,5 +1,6 @@
 $(function () {
 
+	
 	$('.post__main img').on('click', function () {
 		var $img = $(this);
 
