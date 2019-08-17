@@ -35,9 +35,6 @@ $(function () {
 
 	var isKeydown = false;
 	$body.on('keydown', function (e) {
-		// console.log(e.which, 'key down', e.target);
-
-		// 有些 input 或者 textarea 不应该触发这些快捷键
 		var $tar = $(e.target);
 		var needTrigger = true;
 		for (var i = 0; i < unTriggerEles.length; i++) {
@@ -113,13 +110,13 @@ $(function () {
 
 	var comments = [
 		'',
-		'                    .::::.            快捷键：',
-		'                  .::::::::.            j：下移',
-		'                 :::::::::::            k：上移',
-		"             ..:::::::::::'             t：移到最顶",
-		"           '::::::::::::'               b：移到最底",
-		'             .::::::::::                n：下移很多',
-		"        '::::::::::::::..               m：上移很多",
+		'                    .::::.            Navega más facil... =)',
+		'                  .::::::::.            j：Abajo',
+		'                 :::::::::::            k：Arriba',
+		"             ..:::::::::::'             t：Volver al principio",
+		"           '::::::::::::'               b：Ir al final",
+		'             .::::::::::                n：Scroll por bloque hacia abajo',
+		"        '::::::::::::::..               m: Scroll por bloque hacia arriba",
 		'             ..::::::::::::.',
 		'           ``::::::::::::::::',
 		"            ::::``:::::::::'        .:::.",
