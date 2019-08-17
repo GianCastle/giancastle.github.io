@@ -945,7 +945,7 @@ video {
    ========================================================================== */
 @media (max-width: 1023px) {
   html {
-    background: #000;
+    background: #fff;
   }
   .head {
     margin-top: 80px;
